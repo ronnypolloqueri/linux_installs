@@ -1,0 +1,4 @@
+#!/bin/bash
+#vim: set filetype=sh
+mysql -u root -p < install_phpmyadmin_designer.sql
+mysql -u root -p < /var/www/html/phpmyadmin/sql/create_tables.sql
